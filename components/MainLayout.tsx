@@ -11,7 +11,7 @@ const MainLayout: FC<{ children: ReactNode }> = ({ children }) => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Buildoors</title>
+        <title>Cyberpunks</title>
         <meta name="The NFT Collection for Buildoors" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

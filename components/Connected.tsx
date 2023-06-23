@@ -40,7 +40,7 @@ const Connected: FC = () => {
     metaplex
       .candyMachines()
       .findByAddress({
-        address: new PublicKey("4RwtLNMFBdqMJjYtoRSTmubCdFrpPcbS2TtCj12f9mAD"),
+        address: new PublicKey("2DdYAq7rENp1SaD9bkRQkzAe62yn8zUKijkPQX82n1uK"),
       })
       .run()
       .then((candyMachine) => {
@@ -88,13 +88,13 @@ const Connected: FC = () => {
             noOfLines={1}
             textAlign="center"
           >
-            Welcome Buildoor.
+            Welcome Cyberpunk.
           </Heading>
 
           <Text color="bodyText" fontSize="xl" textAlign="center">
-            Each buildoor is randomly generated and can be staked to receive
-            <Text as="b"> $BLD</Text>. Use your <Text as="b"> $BLD</Text> to
-            upgrade your buildoor and receive perks within the community!
+            Each cyberpunk is randomly generated and can be staked to receive
+            <Text as="b"> $CBP</Text>. Use your <Text as="b"> $CBP</Text> to
+            upgrade your cyberpunk and receive perks within the community!
           </Text>
         </VStack>
       </Container>
@@ -114,7 +114,7 @@ const Connected: FC = () => {
         onClick={handleClick}
         isLoading={isMinting}
       >
-        <Text>mint buildoor</Text>
+        <Text>mint cyberpunk</Text>
       </Button>
     </VStack>
   )

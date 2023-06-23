@@ -54,11 +54,11 @@ const NewMint: NextPage<NewMintProps> = ({ mint }) => {
         <Container>
           <VStack spacing={8}>
             <Heading color="white" as="h1" size="2xl" textAlign="center">
-              😮 A new buildoor has appeared!
+              😮 A new cyberpunk has appeared!
             </Heading>
 
             <Text color="bodyText" fontSize="xl" textAlign="center">
-              Congratulations, you minted a lvl 1 buildoor! <br />
+              Congratulations, you minted a lvl 1 cyberpunk! <br />
               Time to stake your character to earn rewards and level up.
             </Text>
           </VStack>
@@ -73,7 +73,7 @@ const NewMint: NextPage<NewMintProps> = ({ mint }) => {
           onClick={handleClick}
         >
           <HStack>
-            <Text>stake my buildoor</Text>
+            <Text>stake my cyberpunk</Text>
             <ArrowForwardIcon />
           </HStack>
         </Button>
